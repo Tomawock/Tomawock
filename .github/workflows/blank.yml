@@ -15,14 +15,3 @@ jobs:
           # Your GitHub token
           token: ${{ secrets.INFO }}
            Classic template example
-           
-      - name: 📗 Classic template
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@master
-        with:
-          filename: metrics.classic.svg
-          base: header, repositories
-          plugin_lines: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
-          output_action: pull-request
-          delay: 120
