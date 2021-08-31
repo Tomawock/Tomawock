@@ -45,7 +45,7 @@ jobs:
           plugin_screenshot: yes
           plugin_screenshot_title: Dilbert of the day  # Section title
           plugin_screenshot_url: https://dilbert.com   # Website url
-          plugin_screenshot_selector: "#img-comic-link img"  # CSS selector to take into screenshot
+          plugin_screenshot_selector: ".img-comic-link img"  # CSS selector to take into screenshot
           plugin_screenshot_background: no          # Remove page background
           
           #Achivments
