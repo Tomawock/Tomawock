@@ -47,7 +47,7 @@ jobs:
           plugin_screenshot: yes
           plugin_screenshot_title: Work Chronicles  # Section title
           plugin_screenshot_url: https://workchronicles.com/      # Website url
-          plugin_screenshot_selector: "#elementor-post__text figure"  # CSS selector to take into screenshot
+          plugin_screenshot_selector: "img.wp-image-2490"  # CSS selector to take into screenshot
           # plugin_screenshot_background: no          # Remove page background
           
           #Achivments
