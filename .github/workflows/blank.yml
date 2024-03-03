@@ -47,7 +47,7 @@ jobs:
           plugin_screenshot: yes
           plugin_screenshot_title: Haxed  # Section title
           plugin_screenshot_url: https://haxed.it/      # Website url
-          plugin_screenshot_selector: ".strip-content p:first-child"  # CSS selector to take into screenshot
+          plugin_screenshot_selector: ".strip-content #haxed"  # CSS selector to take into screenshot
           # plugin_screenshot_background: no          # Remove page background
           
           #Achivments
